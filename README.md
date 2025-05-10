@@ -12,11 +12,11 @@ This repository contains the implementation for an animal re-identification syst
   - Applied preprocessing techniques like normalization and class-balanced sampling.
   - Evaluated system performance using clustering metrics and dimensionality reduction (t-SNE).
 
-  | Model             | Backbone           | Input Format     | Performance |
-|------------------|--------------------|------------------|----------------|
-| ViT (torchvision)     | ViT-B/16            | `PIL.Image`      | Poor        | 
-| EfficientNetV2    | EfficientNetV2-L    | `np.ndarray`     | Poor         | 
-| ConvNeXt          | ConvNeXt-Tiny       | `np.ndarray`     | Ok         |
+| Model | Backbone | Input Format |Performance  |
+|----------|------------|-------------|-------------|
+| ViT (torchvision) | ViT-B/16 | `PIL.Image` | Poor |
+| `EfficientNetV2 | EfficientNetV2-L | `np.ndarray` | Poor |
+| ConvNeXt | ConvNeXt-Tiny  | `np.ndarray` | Ok |
 
 ## Features
 
